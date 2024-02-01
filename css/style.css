@@ -1,0 +1,219 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    padding-bottom: 30px;
+    
+  }
+   .h3 {
+    margin-top: 66.5px;
+    font-family: "Poppins";
+    font-size: 25px;
+    color: #37393f;
+  }
+  .span {
+    font-family: "Poppins";
+    font-size: 25px;
+    color: #6b77e5;
+  }
+  .h3::before {
+    content: "";
+    background-image: url(../photos/Icon.svg);
+    width: 42.171px;
+    height: 29px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  .flex a {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #37393f;
+  }
+  .pseudo-element::after {
+    content: "\2228";
+    margin-left: 5px;
+    font-size: 10px;
+    color: black;
+    vertical-align: middle;
+  }
+  #modified {
+    background-color: #6b77e5;
+    display: inline-block;
+    width: 184px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .h4 {
+    font-family: "Inter";
+    text-align: center;
+    font-size: 18px;
+    margin: 157.5px 0 16px 0;
+    color: #37393f;
+  }
+  .h2 {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 121%;
+    margin-bottom: 41px;
+    color: #37393f;
+  }
+  
+  .green-display {
+    height: 557px;
+    background-image: url("../photos/image\ 72.jpg");
+  }
+  .green-display div {
+    height: 557px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(64, 221, 182, 0.75);
+    backdrop-filter: blur(7px);
+  }
+  .green-display h6 {
+    color: #37393f;
+    font-family: "Inter";
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .green-display h1 {
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 121%;
+    margin-bottom: 21px;
+    color: #37393f;
+  }
+  .p {
+    color: #37393f;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 146.187%;
+    margin-bottom: 47px;
+    display: inline-block;
+    width: 512px;
+    text-align: center;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .h6 {
+    color: #37393f;
+    font-family: "Inter";
+    font-size: 18px;
+    margin-top: 130px;
+    margin-bottom: 16px;
+  }
+  .section3-h2 {
+    color: #37393f;
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 121%;
+    margin-bottom: 41px;
+  }
+  .section4 {
+    display: flex;
+    column-gap: 31px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .section4 > div {
+    width: 386px;
+    height: 532px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 22px;
+  }
+  .div1 {
+    background-image: url(../photos/Photo1.png);
+  }
+  .div2 {
+    background-image: url(../photos/photo2.png);
+  }
+  .div3 {
+    background-image: url(../photos/Photo3.png);
+  }
+  .section4 > div > div {
+    width: 341px;
+    height: 114px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4px;
+  }
+  
+  .section4-h3 {
+    color: #37393f;
+    font-family: "Poppins";
+    font-size: 23px;
+    text-align: center;
+  }
+  .h5 {
+    color: #7d7d7d;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 135.187%;
+    text-align: center;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 53px;
+  }
+  .flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 31px;
+    margin-bottom: 60px;
+  }
+  .flex2 div {
+    width: 386px;
+    height: 383px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex2 h5 {
+    color: #37393f;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 25px;
+    line-height: 127%;
+    margin-bottom: 16px;
+  }
+  .flex2 p {
+    color: #7d7d7d;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 146.187%;
+    margin-bottom: 37px;
+  }
+  .flex2 h6 {
+    color: #6b77e5;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
